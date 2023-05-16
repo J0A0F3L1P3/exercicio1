@@ -39,13 +39,21 @@ header{
 }
 
 nav ul{
+	height: 5vh;
 	list-style: none;
 	display: flex;
 }
 
+nav ul li{
+	display: flex;
+}
+
 nav ul li label{
-	padding: 14px 5px;
-	margin: 0px 10px;
+	height: 100%;
+	width: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 nav ul li label:hover{
